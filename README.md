@@ -10,25 +10,19 @@ The Neighbourhood React app is built to show visitors interesting locations in t
 
 After you have cloned this project to your device, all you need to do is cd into the project in the terminal, and run "npm install". After that you should run "npm start". The project should open at localhost:3000
 
-## Using Google Maps in the APP
-
-Google Maps has a central role in this application. I inserted my API code for making it work. Google Maps is used for showing various locations of interest - in this case places worth visiting in the city of Aalborg, Denmark. 
-
 ## Third party API providing info about locations, using Foursquare
 
 By clicking on the markers, a window pops up with the name and address of the locations. To get this info, I used Foursquare, a 3rd party API.
 
 ## Google Maps
-The application uses Google Maps to show the city and locate the places. I created an API key on https://console.developers.google.com/apis, which is used in this neighbourhood map project.
+Google Maps has a central role in this application. I created an API key on https://console.developers.google.com/apis, which is used in this neighbourhood map project. Google Maps is used for showing various locations of interest - in this case places worth visiting in the city of Aalborg, Denmark. 
 The specific locations with markers were hard coded: I used the website "https://www.latlong.net/convert-address-to-lat-long.html" to convert addresses into lat-long coordinates, and then, I entered the numbers in app.js.
 
 
 ## Foursquare
 I used Foursquare, a 3rd party API to get info about the specified locations. I used the "Get details of a venue" product to get the information: https://developer.foursquare.com/docs/api/venues/details
-I created my own project on Foursquare's website in order to get a client ID and client Secret. I used these numbers in the project.
 
-
-
+I created my own project on Foursquare's website in order to get a client ID and client Secret. I used these numbers in the project.
 
 ## How to launch and use the app
 After you have downloaded the project from GitHub, first you need to "cd" into the project in your terminal. Then, run "npm run" to open the project
