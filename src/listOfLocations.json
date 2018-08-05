@@ -1,0 +1,79 @@
+[
+                {   "title": "Aalborg Zoo",
+                    "latitude": 57.038344,
+                    "longitude": 9.899764
+                },
+                {
+                    "latitude": 57.049465,
+                    "longitude": 9.926184,
+                    "title": "Utzon Center"
+                },
+                {
+                    "latitude": 57.047625,
+                    "longitude": 9.932935,
+                    "title": "Musikkens Hus"
+                },
+                {
+                    "latitude": 57.042719,
+                    "longitude": 9.905935,
+                    "title": "Museum of Modern Arts"
+                },
+                {
+                    "latitude": 57.078249,
+                    "longitude": 9.910073,
+                    "title": "Lindholm Høje Museum"
+                },
+                {
+                    "latitude": 57.045987,
+                    "longitude": 9.931611,
+                    "title": "Nordkraft"
+                },
+                {
+                    "latitude": 57.041595,
+                    "longitude": 9.904918,
+                    "title": "Aalborg Tower"
+                },
+                {
+                    "latitude": 57.059168,
+                    "longitude": 9.893590,
+                    "title": "Maritime Adventure Center"
+                },
+                 {
+                    "latitude": 57.042722,
+                    "longitude": 9.913369,
+                    "title": "The Singing Trees"
+                },
+                {
+                    "latitude": 57.046556,
+                    "longitude": 9.931354,
+                    "title": "Danish Jazz History Center"
+                },
+                {
+                    "latitude": 57.033714,
+                    "longitude": 9.934117,
+                    "title": "Fun Center"
+                },
+                {
+                    "latitude": 57.018351,
+                    "longitude": 9.963104,
+                    "title": "Gigantium"
+                },
+                {
+                    "latitude": 57.051763,
+                    "longitude": 9.898442,
+                    "title": "Aalborg Stadion"
+                },
+                {   "latitude": 57.043481,
+                    "longitude": 9.912027,
+                    "title": "Congress and Culture Center"
+                },
+                {   "latitude": 57.041760,
+                    "longitude": 9.918482,
+                    "title": "Bio City Cinema"
+                },
+                {   "latitude": 57.046995,
+                    "longitude": 9.916470,
+                    "title": "Aalborg Theatre"
+                }
+
+            ]

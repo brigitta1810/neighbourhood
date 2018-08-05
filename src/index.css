@@ -1,0 +1,199 @@
+@import url('https://fonts.googleapis.com/css?family=Exo+2" rel="stylesheet');
+* {
+  box-sizing: inherit;
+  font-size: 12px;
+  padding: 0;
+  margin: 0; }
+
+body,
+html {
+  color: #78AB46;
+  height: 100%;
+  font-family: 'Exo 2', sans-serif;
+  box-sizing: border-box; 
+}
+
+ul {
+  list-style: none; }
+
+#location-area {
+  position:fixed;
+    padding:0;
+    margin:0;
+
+    top:0;
+    left:0;
+
+    width: 100%;
+    height: 100%;}
+
+#map {
+  width: 100%;
+  height: 100%; 
+  z-index: 0;
+}
+
+aside {
+  position: relative;
+  width: 30%%;
+  top: 0;
+  margin-top: 0;
+  height: 20%;
+  z-index: 10;
+  background: #0000;
+  opacity: 0,5;
+  padding: 2px; 
+  float: right;
+}
+
+  aside div {
+    width: auto; 
+  }
+
+  aside h1 {
+    text-align: center;
+    outline: 0.5px black;
+    width: 500px;
+    position: fixed;
+    float: right;
+    bottom: 43px;
+    right: 500px;
+    font-size: 55px; 
+    text-shadow: 1px 1px black;
+  }
+
+  button {
+      width: 100px;
+      height: 40px;
+      background-color: #78AB46;
+      box-shadow: 1px 1px black;
+      border: none;
+      color: white;
+      padding: 15px 32px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 16px;
+      margin: 4px 2px;
+      cursor: pointer;
+      padding-left: 23px;
+      padding-top: 11px;
+      position: relative;
+      bottom: 0;
+    }
+  button:hover {
+    background-color: #00e500;
+    }
+  .place-name:hover {
+    background-color: #006600;
+  }
+
+
+  aside .filterSection {
+    max-height: 100%;
+    opacity: 0.85;
+    width: 250px;
+    display: none;
+    position: fixed;
+    z-index: 1;
+    bottom: 0;
+    left: 0;
+    background-color: lightblue;
+    overflow-x: hidden; }
+  aside .filterSection .search-place {
+    margin-top: 5px;
+    width: 100%;
+    height: auto; }
+  aside .filterSection .search-place .text-input {
+    text-align: center;
+    width: 100%;
+    padding: 10px 0 10px 0;
+    font-size: 16px;
+    }
+  aside .filterSection ul {
+    list-style: none; }
+  aside .filterSection ul li {
+    display: flex;
+    -webkit-display: flex;
+    justify-content: center;
+    width: 100%;
+    background-color: #7e7e7e;
+    padding: 10px; }
+  aside .filterSection ul li a {
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+    font-size: 18px; }
+
+#marker {
+  font-size: 12px; }
+  #marker h1,
+  #marker h2,
+  #marker h3,
+  #marker h4,
+  #marker h5,
+  #marker h6 {
+    font-size: 15px; }
+
+@media screen and (max-width: 1281px) {
+  aside h1 {
+    font-size: 65px; 
+    float: left;
+    left: 550px;
+    bottom: 44px;
+
+  } 
+}
+
+@media screen and (max-width: 1025px) {
+  aside h1 {
+    font-size: 55px; 
+    float: left;
+    left: 450px;
+    bottom: 42px;
+
+  } 
+}
+
+@media screen and (max-width: 769px) {
+  aside h1 {
+    font-size: 55px; 
+    float: left;
+    left: 300px;
+    bottom: 37px;
+
+  } 
+}
+
+@media screen and (max-width: 415px) {
+  aside h1 {
+    font-size: 30px; 
+    float: left;
+    left: 1px;
+    bottom: 37px;
+    z-index: 10;
+
+  } 
+  aside .filterSection{
+    width: 100%;
+    max-height: 40%;
+  }
+  aside .filterSection .search-place{
+    font-size: 6px;
+  }
+  a {
+    font-size: 8px;
+  }
+}
+
+@media screen and (max-width: 330px) {
+  aside h1 {
+    font-size: 22px; 
+    float: left;
+    left: 0;
+    bottom: 37px;
+
+  } 
+}
+
+
